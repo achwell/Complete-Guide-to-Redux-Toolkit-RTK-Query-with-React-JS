@@ -26,8 +26,7 @@
   }
   .form-control input {
     width: 100%;
-    border: none;
-    border-color: transparent;
+    border: none transparent;
     background: #f1f5f8;
     border-radius: 0.25rem;
     padding: 0.5rem;
@@ -60,8 +59,7 @@
   }
   .form-control input {
     width: 100%;
-    border: none;
-    border-color: transparent;
+    border: none transparent;
     background: #f1f5f8;
     border-radius: 0.25rem;
     padding: 0.5rem;
