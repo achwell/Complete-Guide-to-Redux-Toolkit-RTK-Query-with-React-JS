@@ -13,9 +13,6 @@ const UserPost = () => {
     const dispatch = useAppDispatch()
     const {error, loading, post, body, edit} = useAppSelector((state) => state.app)
 
-    console.log({error, loading, post, body, edit})
-
-
     useEffect(() => {
         if (body) {
             setBodyText(body)

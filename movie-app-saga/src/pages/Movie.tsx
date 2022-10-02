@@ -9,8 +9,6 @@ const Movie = () => {
   const dispatch = useAppDispatch();
   const { movie } = useAppSelector((state) => ({ ...state.movie }));
 
-  console.log({movie})
-
   const classes = useStyles();
   const { id } = useParams();
   const navigate = useNavigate();
